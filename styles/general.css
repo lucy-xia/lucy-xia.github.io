@@ -1,0 +1,143 @@
+/* General styles */
+body {
+    background-color: #f5f5fd;
+    font-family: Verdana, sans-serif;
+}
+  
+li {
+  text-align: -webkit-match-parent;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol, ul {
+  padding-left: 2rem;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.contact img {
+  transition: 0.2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+  width: 50px;
+  height: 50px;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Navbar styles */
+.navbar-light {
+  background-color: #24889e;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand ul {
+  margin-bottom: 0;
+}
+
+.navbar-brand li {
+  display: inline-block;
+}
+
+.navbar-brand img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid #cbcbcb;
+}
+
+.navbar-brand .userName {
+  padding-left: 10px;
+  color: #0b0a0a;
+}
+
+.ms-auto {
+  padding-right: 2em;
+}
+
+.nav-link {
+  color: #060606;
+  padding-top: 1px;
+  padding-right: 0px;
+  margin-right: 25px;
+}
+
+.navbar >.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+  margin-left: auto!important;
+  padding-right: 2em;
+  margin-top: 0;
+  box-sizing: border-box;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}

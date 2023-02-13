@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="styles/experiencePage.css" rel="stylesheet" />
+    <link href="styles/general.css" rel="stylesheet" />
+    <title>Lucy's Experience Homepage</title>
+    <link rel="icon" type="image/jpeg" href="./resources/images/homePageImage.jpeg" />
+  </head>
+  <body>
+    <!-- Navigation bar to navigate between pages -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <ul>
+            <li>
+              <img src="./resources/images/homePageImage.jpeg" alt="profilePic" />
+            </li>
+            <li class="userName">
+                <span>Lucy Xia</span>
+            </li>
+          </ul>
+        </a>
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ">
+              <li class="nav-item" id="homeNav">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./experiencePage.html">My Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactPage.html">Contact Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./hobbyPage.html">About Me</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    </nav>
+    <!-- Main body for experience page -->
+    <main>
+      <div class="container">
+        
+        <section>
+          <div class="experienceTitle">
+            <h2>My Experience</h2>
+          </div>
+          <div class="timelineContainer">
+            <div class="row timeline-row">
+              <div class="col-md-2 image-col">
+                <img src="./resources/images/experienceImage1.png" alt="ExperienceImage1"/>
+              </div>
+              <div class="col-md-6 text-col">
+                <div class="textTimelineContainer">
+                  <span>June 2022 - August 2022</span>
+                  <div>
+                    During my Internship in Outreach, I built an assignment monitor service
+                    that continuously syncs assignments from Kafka to Redis using Go programming
+                    language.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row timeline-row">
+              <div class="col-md-2 image-col">
+                <img src="./resources/images/experienceImage2.png" alt="ExperienceImage2"
+                />
+              </div>
+              <div class="col-md-6 text-col">
+                <div class="textTimelineContainer">
+                  <span>March 2021 - August 2021</span>
+                  <div>
+                    I joined Baidu Cloud Inteligence Base, designed data schema for long-term 
+                    and large-scale data collection and analysis. I also created scalable data
+                    augmentations and pre-processing pipelines using Python and SPSS modeler.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row timeline-row">
+              <div class="col-md-2 image-col">
+                <img src="./resources/images/experienceImage3.png" alt="experienceImage3" />
+              </div>
+              <div class="col-md-6 text-col">
+                <div class="textTimelineContainer">
+                  <span>March 2019 - September 2019</span>
+                  <div>
+                    During the semester and summer, I helped developed a predictive system 
+                    for King's Town Bank from scratch. The system can determine potential users
+                    for online banking App advertisement.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
